@@ -258,7 +258,7 @@ export default function App() {
     setSelectedCourse(null);
   };
 
-  // ── Render ──
+  // ── Render ──-
 
   if (loggedIn === null) {
     return (
