@@ -6,6 +6,9 @@ COPY package.json bun.lock ./
 COPY apps/backend/package.json ./apps/backend/
 COPY packages/shared/package.json ./packages/shared/
 
+# Tambahkan baris ini untuk meng-copy Prisma schema sebelum instalasi
+COPY apps/backend/prisma/schema.prisma ./apps/backend/prisma/
+
 RUN bun install
 
 # Copy source
