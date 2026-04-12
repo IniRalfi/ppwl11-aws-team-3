@@ -3,10 +3,12 @@ name: monorepo
 services:
   backend:
     build:
-      context: . # root = context supaya bisa akses packages/shared
+      context: .
       dockerfile: apps/backend/Dockerfile
     ports:
       - "3000:3000"
+    env_file:
+      - .env # ← tambahkan ini
     restart: unless-stopped
 
   frontend:
