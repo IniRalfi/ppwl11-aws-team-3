@@ -1,4 +1,6 @@
-import { prisma } from "./db";
+import { getPrisma } from "./dbPostgre";
+
+const prisma = getPrisma();
 
 const users = [
   { name: "Leo Tobing", email: "leo@example.com" },

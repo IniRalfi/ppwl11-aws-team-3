@@ -1,6 +1,8 @@
-import { prisma } from "./db";
+import { getPrisma } from "./dbPostgre";
 import { readFileSync } from "fs";
 import { join } from "path";
+
+const prisma = getPrisma();
 
 const sql = readFileSync(join(__dirname, "../baseline.sql"), "utf-8");
 

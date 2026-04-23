@@ -9,12 +9,12 @@
 
 | Nama | NIM | Job |
 |------|-----|-----|
-| Budi | H1101240000 | Admin |
-| Other | H110124000 | Budget & Cost |
-| Other | H110124000 | RDS Database |
-| Other | H110124000 | Lambda Backend |
-| Other | H110124000 | S3+CloudFront Frontend |
-| Other | H110124000 | Test & Docs |
+| Rafli Pratama | H1101241008 | Admin |
+| Salsabila Nur Anisa | H1101241008 | Budget & Cost |
+| Other | H1101241008 | RDS Database |
+| Other | H1101241008 | Lambda Backend |
+| Other | H1101241008 | S3+CloudFront Frontend |
+| Other | H1101241008 | Test & Docs |
 
 [Canva - Arsitektur Diagram AWS](#)
 > [!NOTE]
