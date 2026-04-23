@@ -20,6 +20,7 @@
     "@googleapis/classroom": "^11.1.0",
     "@prisma/adapter-libsql": "^7.5.0",
     "@prisma/client": "^7.5.0",
+    "dotenv": "^17.4.2",
     "elysia": "^1.4.27",
     "googleapis": "^171.4.0",
     "shared": "workspace:*"
@@ -29,5 +30,8 @@
     "@types/node": "^25.5.2",
     "prisma": "^7.5.0",
     "tsdown": "^0.21.7"
+  },
+  "prisma": {
+    "seed": "bun run prisma/seed.ts"
   }
 }
